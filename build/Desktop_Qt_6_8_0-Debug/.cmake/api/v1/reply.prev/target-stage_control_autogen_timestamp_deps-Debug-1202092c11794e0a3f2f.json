@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"stage_control/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "stage_control_autogen_timestamp_deps::@063cc78b0657a1d354ee",
+	"isGeneratorProvided" : true,
+	"name" : "stage_control_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "stage_control",
+		"source" : "stage_control"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

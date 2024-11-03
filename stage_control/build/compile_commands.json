@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/augustus/Projects/stage_control/build",
+  "command": "/usr/bin/clang++ -I/home/augustus/Projects/stage_control/include -I/home/augustus/Projects/stage_control/src -g -std=gnu++20 -march=native -Wall -Wextra -o CMakeFiles/stage_control.dir/src/main.cpp.o -c /home/augustus/Projects/stage_control/src/main.cpp",
+  "file": "/home/augustus/Projects/stage_control/src/main.cpp",
+  "output": "CMakeFiles/stage_control.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/augustus/Projects/stage_control/build",
+  "command": "/usr/bin/clang++ -I/home/augustus/Projects/stage_control/include -I/home/augustus/Projects/stage_control/src -g -std=gnu++20 -march=native -Wall -Wextra -o CMakeFiles/stage_control.dir/src/device.cpp.o -c /home/augustus/Projects/stage_control/src/device.cpp",
+  "file": "/home/augustus/Projects/stage_control/src/device.cpp",
+  "output": "CMakeFiles/stage_control.dir/src/device.cpp.o"
+},
+{
+  "directory": "/home/augustus/Projects/stage_control/build",
+  "command": "/usr/bin/clang++ -I/home/augustus/Projects/stage_control/include -I/home/augustus/Projects/stage_control/src -g -std=gnu++20 -march=native -Wall -Wextra -o CMakeFiles/stage_control.dir/src/transferqueue.cpp.o -c /home/augustus/Projects/stage_control/src/transferqueue.cpp",
+  "file": "/home/augustus/Projects/stage_control/src/transferqueue.cpp",
+  "output": "CMakeFiles/stage_control.dir/src/transferqueue.cpp.o"
+}
+]

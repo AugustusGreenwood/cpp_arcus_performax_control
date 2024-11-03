@@ -1,0 +1,4 @@
+set(__QT_DEPLOY_TARGET_stage_control_FILE /home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/libstage_control.so)
+set(__QT_DEPLOY_TARGET_stage_control_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_MechanicalLoader_FILE /home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader)
+set(__QT_DEPLOY_TARGET_MechanicalLoader_TYPE EXECUTABLE)

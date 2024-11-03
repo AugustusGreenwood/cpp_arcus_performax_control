@@ -1,0 +1,636 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MechanicalLoader"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"set_property",
+			"find_dependency",
+			"_qt_internal_find_third_party_dependencies",
+			"_qt_internal_find_qt_dependencies",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"/usr/share/cmake/Modules/FindOpenGL.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"stage_control/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 957,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 644,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 703,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"file" : 6,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 55,
+				"parent" : 15
+			},
+			{
+				"file" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 43,
+				"parent" : 15
+			},
+			{
+				"file" : 13,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 43,
+				"parent" : 20
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 143,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 22
+			},
+			{
+				"file" : 12,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 43,
+				"parent" : 24
+			},
+			{
+				"file" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 37,
+				"parent" : 26
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 36,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 76,
+				"parent" : 28
+			},
+			{
+				"file" : 8,
+				"parent" : 29
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 13,
+				"parent" : 30
+			},
+			{
+				"file" : 7,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 712,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 710,
+				"parent" : 32
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 645,
+				"parent" : 2
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 14,
+				"parent" : 36
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++20 -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 35,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CHARTS_LIB"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGLWIDGETS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/augustus/Projects/MechanicalLoader/gui/mainwindow"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/augustus/Projects/MechanicalLoader/stage_control/src"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "/home/augustus/Projects/MechanicalLoader/luaapi"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include/QtCharts"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.0/gcc_64/include/QtOpenGLWidgets"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					35,
+					35
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				9,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "stage_control::@063cc78b0657a1d354ee"
+		},
+		{
+			"id" : "MechanicalLoader_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "MechanicalLoader_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "MechanicalLoader::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/Qt/6.8.0/gcc_64/lib:/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/Qt/6.8.0/gcc_64/lib/libQt6Charts.so.6.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "stage_control/libstage_control.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-llua",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/Qt/6.8.0/gcc_64/lib/libQt6OpenGLWidgets.so.6.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/Qt/6.8.0/gcc_64/lib/libQt6Widgets.so.6.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/opt/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/usr/lib/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/usr/lib/libOpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/opt/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-lusb-1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/opt/Qt/6.8.0/gcc_64/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MechanicalLoader",
+	"nameOnDisk" : "MechanicalLoader",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				5,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				6,
+				7,
+				8,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4,
+				10,
+				15
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "gui/mainwindow/mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "gui/mainwindow/mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "gui/mainwindow/mainwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "stage_control/src/device.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "stage_control/src/transferqueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "stage_control/src/device.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "plugins/sinusoidalstimulation/sinusoidalstimulation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "plugins/sinusoidalstimulation/sinusoidalstimulation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "plugins/sinusoidalstimulation/sinusoidalstimulation.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "luaapi/luaapi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "luaapi/luaapi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/include/gui/mainwindow/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/include/plugins/sinusoidalstimulation/ui_sinusoidalstimulation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}
