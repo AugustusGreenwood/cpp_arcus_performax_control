@@ -69,7 +69,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MechanicalLoader::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MechanicalLoader-Debug-3f65009018271da84ac2.json",
+					"jsonFile" : "target-MechanicalLoader-Debug-c88ca8aa13f2383ab23a.json",
 					"name" : "MechanicalLoader",
 					"projectIndex" : 0
 				},
@@ -90,7 +90,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "stage_control::@063cc78b0657a1d354ee",
-					"jsonFile" : "target-stage_control-Debug-e4d78ea6341986a7d558.json",
+					"jsonFile" : "target-stage_control-Debug-29d076aa3232c880e142.json",
 					"name" : "stage_control",
 					"projectIndex" : 0
 				},
@@ -114,8 +114,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug",
-		"source" : "/home/augustus/Projects/MechanicalLoader"
+		"build" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/augustus/Projects/cpp_arcus_performax_control"
 	},
 	"version" : 
 	{

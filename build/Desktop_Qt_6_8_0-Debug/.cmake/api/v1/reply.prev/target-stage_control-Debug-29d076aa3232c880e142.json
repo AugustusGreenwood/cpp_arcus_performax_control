@@ -130,11 +130,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/include"
+					"path" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/augustus/Projects/MechanicalLoader/stage_control/src"
+					"path" : "/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src"
 				}
 			],
 			"language" : "CXX",

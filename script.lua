@@ -1,3 +1,6 @@
-input_func(function()
-	print("HEHEHEEHHE")
+device:setPulsePosition(0)
+device:setHighSpeed(100)
+device:moveTo(100)
+device:trying(function()
+	print(device:getPulsePosition())
 end)

@@ -1,29 +1,29 @@
 {
-	"BUILD_DIR" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen",
-	"CMAKE_BINARY_DIR" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/augustus/Projects/MechanicalLoader/stage_control",
-	"CMAKE_EXECUTABLE" : "/opt/Qt/Tools/CMake/bin/cmake",
+	"BUILD_DIR" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen",
+	"CMAKE_BINARY_DIR" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/augustus/Projects/cpp_arcus_performax_control/stage_control",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/augustus/Projects/MechanicalLoader/stage_control/CMakeLists.txt"
+		"/home/augustus/Projects/cpp_arcus_performax_control/stage_control/CMakeLists.txt"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/augustus/Projects/MechanicalLoader",
+	"CMAKE_SOURCE_DIR" : "/home/augustus/Projects/cpp_arcus_performax_control",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/deps",
+	"DEP_FILE" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "stage_control_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/augustus/Projects/MechanicalLoader/stage_control/src/device.h",
+			"/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.h",
 			"MU",
 			"UVLADIE3JM/moc_device.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "stage_control_EXPORTS" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -34,7 +34,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/augustus/Projects/MechanicalLoader/stage_control/src",
+		"/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src",
 		"/usr/include/c++/14.2.1",
 		"/usr/include/c++/14.2.1/x86_64-pc-linux-gnu",
 		"/usr/include/c++/14.2.1/backward",
@@ -60,23 +60,23 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/stage_control_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/CMakeFiles/stage_control_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/CMakeFiles/stage_control_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/Qt/6.8.0/gcc_64/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/Qt/6.8.0/gcc_64/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control/CMakeFiles/stage_control_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control/CMakeFiles/stage_control_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/augustus/Projects/MechanicalLoader/stage_control/src/device.cpp",
+			"/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.cpp",
 			"MU",
 			null
 		]

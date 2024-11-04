@@ -14,11 +14,14 @@ struct Transfer {
 	bool completed = false;
 };
 
+// TODO: Do some inheritance. I think breaking this into a base class USB device
+// and then building the specifics on top would be great
 class Device {
   public:
 	Device(int prod_id, int vend_id, int timeout = 3000);
 	~Device();
 
+	// Important that all these get* and set* are blocking
 	int getPulsePosition();
 	int getHighSpeed();
 	int getEncoderPosition();
@@ -67,11 +70,16 @@ class Device {
 	int vendor_id;
 	int timeout;
 
+	// WHen interactive with the gui, these offer a way to consistently get the
+	// state of the machine. These are updated in the "monitor" function and
+	// thread. I don't usually need them as integers so I leave them as chars:
 	char *pulse_position = new char[64];
 	char *encoder_position = new char[64];
 	char *motor_status = new char[64];
 
   private:
+	// My thinking is many of these private functions could be given to a base
+	// class and then inhereted
 	int open();
 	int close();
 	int controlWrite(const int value);
@@ -91,6 +99,7 @@ class Device {
 	libusb_device_handle *handle = nullptr;
 	int interface_number = 0;
 
+	// Having these hard-coded is probably bad practice, but it works well
 	unsigned char read_endpoint = 0x82;
 	unsigned char write_endpoint = 0x02;
 };

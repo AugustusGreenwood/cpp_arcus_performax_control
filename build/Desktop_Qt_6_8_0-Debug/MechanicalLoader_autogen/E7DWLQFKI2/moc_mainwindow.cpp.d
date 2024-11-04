@@ -1,7 +1,7 @@
-/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/E7DWLQFKI2/moc_mainwindow.cpp: /home/augustus/Projects/MechanicalLoader/gui/mainwindow/mainwindow.h \
-  /home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/moc_predefs.h \
-  /home/augustus/Projects/MechanicalLoader/stage_control/src/device.h \
-  /home/augustus/Projects/MechanicalLoader/stage_control/src/transferqueue.h \
+/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/E7DWLQFKI2/moc_mainwindow.cpp: /home/augustus/Projects/cpp_arcus_performax_control/gui/mainwindow/mainwindow.h \
+  /home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/moc_predefs.h \
+  /home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.h \
+  /home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/transferqueue.h \
   /opt/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
   /opt/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /opt/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \

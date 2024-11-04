@@ -54,6 +54,7 @@ target_link_libraries(MechanicalLoader
         Qt${QT_VERSION_MAJOR}::Widgets
         Qt${QT_VERSION_MAJOR}::Charts
         stage_control
+        luajit-5.1
         lua
 )
 

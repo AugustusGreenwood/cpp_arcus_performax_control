@@ -1,5 +1,5 @@
 stage_control_autogen/timestamp: \
-	/home/augustus/Projects/MechanicalLoader/stage_control/CMakeLists.txt \
-	/home/augustus/Projects/MechanicalLoader/stage_control/src/device.cpp \
-	/home/augustus/Projects/MechanicalLoader/stage_control/src/device.h \
-	/opt/Qt/Tools/CMake/bin/cmake
+	/home/augustus/Projects/cpp_arcus_performax_control/stage_control/CMakeLists.txt \
+	/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.cpp \
+	/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.h \
+	/usr/bin/cmake

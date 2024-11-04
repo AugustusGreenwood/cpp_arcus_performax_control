@@ -7,6 +7,8 @@
 #include <QTimer>
 #include <lua.hpp>
 
+// TODO: remove these
+// These should almost certainly not just be hardcoded here
 const int VENDOR_ID = 0x1589;
 const int PRODUCT_ID = 0xa101;
 
@@ -16,6 +18,10 @@ class MainWindow;
 }
 QT_END_NAMESPACE
 
+// TODO: Maybe make this cleaner?
+// Now, I don't know if this is me not loving C++ style, but I just don't like these
+// functions and this style. Especially the source file feels clunky and cluttered. Maybe
+// need to seek out some examples for inspiriation
 class MainWindow : public QMainWindow {
 	Q_OBJECT
 

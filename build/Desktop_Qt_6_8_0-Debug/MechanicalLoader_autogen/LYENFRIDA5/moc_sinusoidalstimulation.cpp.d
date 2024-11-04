@@ -1,5 +1,5 @@
-/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/LYENFRIDA5/moc_sinusoidalstimulation.cpp: /home/augustus/Projects/MechanicalLoader/plugins/sinusoidalstimulation/sinusoidalstimulation.h \
-  /home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/moc_predefs.h \
+/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/LYENFRIDA5/moc_sinusoidalstimulation.cpp: /home/augustus/Projects/cpp_arcus_performax_control/plugins/sinusoidalstimulation/sinusoidalstimulation.h \
+  /home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/moc_predefs.h \
   /opt/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
   /opt/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
   /opt/Qt/6.8.0/gcc_64/include/QtCore/q20memory.h \

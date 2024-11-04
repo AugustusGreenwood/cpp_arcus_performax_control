@@ -6,6 +6,8 @@
 #include <optional>
 #include <queue>
 
+// This is the most basic implementation of what should be a thread-safe queue.
+// I don't need a million features, I just need a thread-safe queue
 template <typename T> class TransferQueue {
   public:
 	void push(const T &value) {

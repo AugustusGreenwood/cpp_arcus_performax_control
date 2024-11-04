@@ -48,8 +48,6 @@ public:
     QLabel *encoder_label;
     QLabel *program_label;
     QLabel *speed_label;
-    QPushButton *load_program_button;
-    QPushButton *file_browser_button;
     QLineEdit *speed_output;
     QRadioButton *enable_motor_button;
     QLabel *control_label;
@@ -65,6 +63,7 @@ public:
     QRadioButton *absolute_movement_button;
     QRadioButton *incremental_movement_button;
     QSpacerItem *horizontalSpacer;
+    QPushButton *load_program_button;
     QMenuBar *menubar;
     QStatusBar *statusbar;
     QButtonGroup *movement_type_button_group;
@@ -189,18 +188,6 @@ public:
 
         gridLayout->addWidget(speed_label, 2, 0, 1, 1);
 
-        load_program_button = new QPushButton(centralwidget);
-        load_program_button->setObjectName("load_program_button");
-        load_program_button->setFont(font);
-
-        gridLayout->addWidget(load_program_button, 10, 5, 1, 1);
-
-        file_browser_button = new QPushButton(centralwidget);
-        file_browser_button->setObjectName("file_browser_button");
-        file_browser_button->setFont(font);
-
-        gridLayout->addWidget(file_browser_button, 10, 4, 1, 1);
-
         speed_output = new QLineEdit(centralwidget);
         speed_output->setObjectName("speed_output");
         speed_output->setFont(font);
@@ -307,6 +294,12 @@ public:
 
         gridLayout->addItem(horizontalSpacer, 5, 1, 1, 4);
 
+        load_program_button = new QPushButton(centralwidget);
+        load_program_button->setObjectName("load_program_button");
+        load_program_button->setFont(font);
+
+        gridLayout->addWidget(load_program_button, 10, 4, 1, 2);
+
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -334,8 +327,6 @@ public:
         encoder_label->setText(QCoreApplication::translate("MainWindow", "Encoder Position", nullptr));
         program_label->setText(QCoreApplication::translate("MainWindow", "Program:", nullptr));
         speed_label->setText(QCoreApplication::translate("MainWindow", "High Speed", nullptr));
-        load_program_button->setText(QCoreApplication::translate("MainWindow", "Load", nullptr));
-        file_browser_button->setText(QCoreApplication::translate("MainWindow", "Browser", nullptr));
         enable_motor_button->setText(QCoreApplication::translate("MainWindow", "Enable Motor", nullptr));
         control_label->setText(QCoreApplication::translate("MainWindow", "Control", nullptr));
         run_program_button->setText(QCoreApplication::translate("MainWindow", "Run", nullptr));
@@ -347,6 +338,7 @@ public:
 "(pulses/s)", nullptr));
         absolute_movement_button->setText(QCoreApplication::translate("MainWindow", "Absolute", nullptr));
         incremental_movement_button->setText(QCoreApplication::translate("MainWindow", "Incremental", nullptr));
+        load_program_button->setText(QCoreApplication::translate("MainWindow", "Load", nullptr));
     } // retranslateUi
 
 };

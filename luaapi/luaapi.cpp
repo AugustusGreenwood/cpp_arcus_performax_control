@@ -1,6 +1,11 @@
 #include "luaapi.h"
 #include <iostream>
 
+// This file feels better than my Qt gui, but I still feel like theres improvments
+// somewhere
+//
+// Is it inefficient to pass device like this? The casting and transfering from lua seems
+// like it might be expensive
 int luaapi_getPulsePosition(lua_State *L) {
 	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
 	int position = device->getPulsePosition();
@@ -175,16 +180,45 @@ int luaapi_moveDown(lua_State *L) {
 	device->moveDown();
 	return 0;
 }
-int luaapi_checkDriverRead(lua_State *L) { return 0; }
-int luaapi_checkDriverWrite(lua_State *L) { return 0; }
-int luaapi_writeDriverParameters(lua_State *L) { return 0; }
-int luaapi_readDriverParameters(lua_State *L) { return 0; }
+int luaapi_checkDriverRead(lua_State *L) {
+	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
+	bool status = device->checkDriverRead();
+	lua_pushboolean(L, status);
+	return 1;
+}
+int luaapi_checkDriverWrite(lua_State *L) {
+	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
+	bool status = device->checkDriverWrite();
+	lua_pushboolean(L, status);
+	return 1;
+}
+int luaapi_writeDriverParameters(lua_State *L) {
+	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
+	device->writeDriverParameters();
+	return 0;
+}
+int luaapi_readDriverParameters(lua_State *L) {
+	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
+	device->readDriverParameters();
+	return 0;
+}
 int luaapi_waitForMotorIdle(lua_State *L) {
 	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
 	device->waitForMotorIdle();
 	return 0;
 }
-int luaapi_sendCommandGetResponse(lua_State *L) { return 0; }
+
+int luaapi_trying(lua_State *L) {
+	Device *device = *static_cast<Device **>(luaL_checkudata(L, 1, "DeviceMetaTable"));
+	device->waitForMotorIdle([&]() {
+		lua_pushvalue(L, 2);
+		if (0 != lua_pcall(L, 0, 0, 0)) {
+			std::cout << "Failed to call the callback!\n %s\n"
+					  << lua_tostring(L, -1) << std::endl;
+		}
+	});
+	return 0;
+}
 
 static const luaL_Reg device_lib[] = {
 	{"getPulsePosition", luaapi_getPulsePosition},
@@ -222,7 +256,7 @@ static const luaL_Reg device_lib[] = {
 	{"writeDriverParameters", luaapi_writeDriverParameters},
 	{"readDriverParameters", luaapi_readDriverParameters},
 	{"waitForMotorIdle", luaapi_waitForMotorIdle},
-	{"sendCommandGetResponse", luaapi_sendCommandGetResponse},
+	{"trying", luaapi_trying},
 	{NULL, NULL}
 
 };

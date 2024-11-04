@@ -75,7 +75,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 79,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
@@ -250,7 +250,7 @@
 			{
 				"command" : 13,
 				"file" : 1,
-				"line" : 60,
+				"line" : 61,
 				"parent" : 0
 			}
 		]
@@ -299,19 +299,19 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/include"
+					"path" : "/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/include"
 				},
 				{
 					"backtrace" : 38,
-					"path" : "/home/augustus/Projects/MechanicalLoader/gui/mainwindow"
+					"path" : "/home/augustus/Projects/cpp_arcus_performax_control/gui/mainwindow"
 				},
 				{
 					"backtrace" : 38,
-					"path" : "/home/augustus/Projects/MechanicalLoader/stage_control/src"
+					"path" : "/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src"
 				},
 				{
 					"backtrace" : 38,
-					"path" : "/home/augustus/Projects/MechanicalLoader/luaapi"
+					"path" : "/home/augustus/Projects/cpp_arcus_performax_control/luaapi"
 				},
 				{
 					"backtrace" : 35,
@@ -417,7 +417,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/Qt/6.8.0/gcc_64/lib:/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/stage_control:",
+				"fragment" : "-Wl,-rpath,/opt/Qt/6.8.0/gcc_64/lib:/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/stage_control:",
 				"role" : "libraries"
 			},
 			{
@@ -428,6 +428,11 @@
 			{
 				"backtrace" : 6,
 				"fragment" : "stage_control/libstage_control.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lluajit-5.1",
 				"role" : "libraries"
 			},
 			{

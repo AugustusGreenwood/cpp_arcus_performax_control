@@ -77,10 +77,8 @@ void MainWindow::move() {
 
 void MainWindow::loadProgram() {
 	QString file_name = ui->program_input->text();
-	if (file_name.isEmpty()) {
-		file_name = QFileDialog::getOpenFileName(this, "", ".", "");
-		ui->program_input->setText(file_name);
-	}
+	file_name = QFileDialog::getOpenFileName(this, "", ".", "");
+	ui->program_input->setText(file_name);
 
 	QFile file(file_name);
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -111,7 +109,6 @@ void MainWindow::setButtonsEnabled(bool enabled) {
 	ui->stop_button->setEnabled(enabled);
 	ui->zero_position_button->setEnabled(enabled);
 	ui->enable_motor_button->setEnabled(enabled);
-	ui->file_browser_button->setEnabled(enabled);
 	ui->incremental_movement_button->setEnabled(enabled);
 	ui->load_program_button->setEnabled(enabled);
 	ui->run_program_button->setEnabled(enabled);
@@ -144,11 +141,6 @@ void MainWindow::makeConnections() {
 		updateInputParameters();
 		device.setPulsePosition(0);
 		device.setEncoderPosition(0);
-	});
-
-	connect(ui->file_browser_button, &QPushButton::released, this, [&]() {
-		QString file_name = QFileDialog::getOpenFileName(this, "", ".", "");
-		ui->program_input->setText(file_name);
 	});
 
 	connect(ui->load_program_button, &QPushButton::released, this,

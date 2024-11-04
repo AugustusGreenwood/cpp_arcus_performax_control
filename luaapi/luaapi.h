@@ -2,7 +2,7 @@
 #define LUAAPI_H
 
 #include "device.h"
-#include <lua.hpp>
+#include <luajit-2.1/lua.hpp>
 
 void luaapi_runProgram(std::string program, Device *device);
 

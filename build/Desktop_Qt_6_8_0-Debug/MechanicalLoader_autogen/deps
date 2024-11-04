@@ -1,21 +1,21 @@
 MechanicalLoader_autogen/timestamp: \
-	/home/augustus/Projects/MechanicalLoader/CMakeLists.txt \
-	/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/.qtc/package-manager/auto-setup.cmake \
-	/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/3.29.3/CMakeCCompiler.cmake \
-	/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
-	/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
-	/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/moc_predefs.h \
-	/home/augustus/Projects/MechanicalLoader/build/Desktop_Qt_6_8_0-Debug/compile_commands.json \
-	/home/augustus/Projects/MechanicalLoader/gui/mainwindow/mainwindow.cpp \
-	/home/augustus/Projects/MechanicalLoader/gui/mainwindow/mainwindow.h \
-	/home/augustus/Projects/MechanicalLoader/luaapi/luaapi.cpp \
-	/home/augustus/Projects/MechanicalLoader/luaapi/luaapi.h \
-	/home/augustus/Projects/MechanicalLoader/main.cpp \
-	/home/augustus/Projects/MechanicalLoader/plugins/sinusoidalstimulation/sinusoidalstimulation.cpp \
-	/home/augustus/Projects/MechanicalLoader/plugins/sinusoidalstimulation/sinusoidalstimulation.h \
-	/home/augustus/Projects/MechanicalLoader/stage_control/src/device.cpp \
-	/home/augustus/Projects/MechanicalLoader/stage_control/src/device.h \
-	/home/augustus/Projects/MechanicalLoader/stage_control/src/transferqueue.h \
+	/home/augustus/Projects/cpp_arcus_performax_control/CMakeLists.txt \
+	/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/.qtc/package-manager/auto-setup.cmake \
+	/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake \
+	/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/MechanicalLoader_autogen/moc_predefs.h \
+	/home/augustus/Projects/cpp_arcus_performax_control/build/Desktop_Qt_6_8_0-Debug/compile_commands.json \
+	/home/augustus/Projects/cpp_arcus_performax_control/gui/mainwindow/mainwindow.cpp \
+	/home/augustus/Projects/cpp_arcus_performax_control/gui/mainwindow/mainwindow.h \
+	/home/augustus/Projects/cpp_arcus_performax_control/luaapi/luaapi.cpp \
+	/home/augustus/Projects/cpp_arcus_performax_control/luaapi/luaapi.h \
+	/home/augustus/Projects/cpp_arcus_performax_control/main.cpp \
+	/home/augustus/Projects/cpp_arcus_performax_control/plugins/sinusoidalstimulation/sinusoidalstimulation.cpp \
+	/home/augustus/Projects/cpp_arcus_performax_control/plugins/sinusoidalstimulation/sinusoidalstimulation.h \
+	/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.cpp \
+	/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/device.h \
+	/home/augustus/Projects/cpp_arcus_performax_control/stage_control/src/transferqueue.h \
 	/opt/Qt/6.8.0/gcc_64/include/QtCore/QTimer \
 	/opt/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
 	/opt/Qt/6.8.0/gcc_64/include/QtCore/q20iterator.h \
@@ -439,46 +439,6 @@ MechanicalLoader_autogen/timestamp: \
 	/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/opt/Qt/6.8.0/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-C.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-CXX.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/FindVulkan.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/MacroAddFileDependencies.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Clang-C.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Clang-CXX.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux.cmake \
-	/opt/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -823,6 +783,46 @@ MechanicalLoader_autogen/timestamp: \
 	/usr/lib/clang/18/include/stdarg.h \
 	/usr/lib/clang/18/include/stdbool.h \
 	/usr/lib/clang/18/include/stddef.h \
-	/home/augustus/Projects/MechanicalLoader/gui/mainwindow/mainwindow.ui \
-	/home/augustus/Projects/MechanicalLoader/plugins/sinusoidalstimulation/sinusoidalstimulation.ui \
-	/opt/Qt/Tools/CMake/bin/cmake
+	/usr/share/cmake/Modules/CMakeCInformation.cmake \
+	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
+	/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+	/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+	/usr/share/cmake/Modules/CMakeGenericSystem.cmake \
+	/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+	/usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
+	/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+	/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+	/usr/share/cmake/Modules/CheckCSourceCompiles.cmake \
+	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+	/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+	/usr/share/cmake/Modules/CheckIncludeFile.cmake \
+	/usr/share/cmake/Modules/CheckLibraryExists.cmake \
+	/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/usr/share/cmake/Modules/Compiler/Clang-C.cmake \
+	/usr/share/cmake/Modules/Compiler/Clang-CXX.cmake \
+	/usr/share/cmake/Modules/Compiler/Clang.cmake \
+	/usr/share/cmake/Modules/Compiler/GNU.cmake \
+	/usr/share/cmake/Modules/FeatureSummary.cmake \
+	/usr/share/cmake/Modules/FindOpenGL.cmake \
+	/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+	/usr/share/cmake/Modules/FindPackageMessage.cmake \
+	/usr/share/cmake/Modules/FindPkgConfig.cmake \
+	/usr/share/cmake/Modules/FindThreads.cmake \
+	/usr/share/cmake/Modules/FindVulkan.cmake \
+	/usr/share/cmake/Modules/GNUInstallDirs.cmake \
+	/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+	/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+	/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+	/usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
+	/usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake \
+	/usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake \
+	/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake \
+	/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
+	/usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
+	/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
+	/usr/share/cmake/Modules/Platform/Linux.cmake \
+	/usr/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/home/augustus/Projects/cpp_arcus_performax_control/gui/mainwindow/mainwindow.ui \
+	/home/augustus/Projects/cpp_arcus_performax_control/plugins/sinusoidalstimulation/sinusoidalstimulation.ui \
+	/usr/bin/cmake
